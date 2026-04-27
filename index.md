@@ -9,4 +9,8 @@ layout: default
 <img src="96009f1d-b4c0-4620-8e01-338ed2f48a04.jpeg" width="300">
 ## COMP 110 - EX09 - 2026
 
-This is basic paragraph text.
+For this exercise, I used survey data from the University of North Carolina at Chapel Hill’s COMP 110 students to determine whether the curriculum should create a virtual lecture option. This would allow students to see a livestream of the lecture and see it published online.
+
+We took the survey CSV into a row-style dictionary, which we converted to a column-style table. We then selected the survey questions that related to the question: add_livestream (preference for a livestream) and ls_effective (effectivity of lesson videos). Additionally, we included questions that determined the student’s academic standing: own_notes (frequency of writing notes) and interested_connections (interest in the applications of computer science). We determined own_notes and interested_connections to be correlated with academic effort and standing, because the best students are most likely to take notes and are genuinely interested in computer science as a field. To make the sample consist of those with decent academic standing, we eliminated rows that didn’t meet certain criteria. own_notes must be >3 out of 7 and interested_connections > 3 out of 7. Out of those with good academic standing, we wanted to see the frequency of those who want a virtual lecture option. This ultimately showed that the best and most effortful students in the class want to have a virtual lecture. Finally, we graphed the relationship between academic effort and wanting a virtual lecture option. For this, we used the unfiltered data.
+
+
